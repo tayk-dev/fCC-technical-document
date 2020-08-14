@@ -1,0 +1,25 @@
+#navbar {
+    width:90%;
+    height: 30%; 
+    position: fixed;
+}
+
+#main-doc {
+    width: 90%;
+    padding-top: 150px;
+}
+
+
+@media only screen and (min-width: 750px) {
+#navbar {
+    float: left;
+    position: fixed;
+    width: 30%;
+}
+
+#main-doc {
+    float: right;
+    width: 69%;
+    padding-top: 0;
+}
+}
